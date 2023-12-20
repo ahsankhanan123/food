@@ -1,0 +1,80 @@
+/* Banner Section Styling */
+.banner {
+    background-image: url('../../assets/img/banner-bg.png');
+    background-size: cover;
+    background-position: 0%;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #008000;
+}
+
+.banner h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.banner h3 {
+    font-size: 2em;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #008000;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    padding: 10px 35px;
+}
+
+
+@media (max-width: 882px) {
+    .banner {
+        height: 500px;
+    }
+
+
+    .banner h5 {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    .banner h1 {
+        font-size: 2em;
+        margin-bottom: 5px;
+    }
+
+    .banner h3 {
+        font-size: 1.2em;
+        letter-spacing: 4px;
+        margin-bottom: 10px;
+    }
+
+    .banner p {
+        font-size: 1em;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+
+}

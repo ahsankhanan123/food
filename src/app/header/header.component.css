@@ -1,0 +1,239 @@
+
+
+.col {
+    /* border: 2px solid green; */
+}
+
+.green {
+    background-color: #3d5f00;
+}
+
+.container {
+    height: 100%;
+    height: 70px;
+}
+
+.row {}
+
+.header {
+    position: relative;
+    width: 100%;
+    
+    background-color: #3d5f00;
+}
+
+.header {
+
+}
+.header .logo {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 50px;
+}
+.header .logo img {
+    width: 100%;
+}
+.header .menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .menu .input-search {
+    width: 200px;
+    height: 30px;
+    position: relative;
+    border-bottom: 1px solid #fff;
+}
+.header .menu .input-search input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+::placeholder   {
+    color: #fff;
+}
+.header .menu .input-search i {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+}
+
+.header .menu ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.header .menu ul li {
+    display: inline-block;
+}
+.header .menu ul li a {
+    color: #fff;
+    margin: 0px 15px;
+    text-decoration: none;
+}
+.header .menu ul li a i {
+    font-size: 20px;
+    position: relative;
+}
+.header .menu ul li a i::after {
+    content: attr(current-count);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #629405;
+    font-size: 10px;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+.header .toggle {
+    display: none;
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.header .toggle .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px;
+    transition: all .6s ease;
+}
+  
+.header2 .container1 {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header2 .container1 .menu2 {}
+.header2 .container1 .menu2 ul {
+    list-style: none;
+}
+.header2 .container1 .menu2 ul li {
+    display: inline-block;
+}
+.header2 .container1 .menu2 ul li a {
+    color: #3d5f00;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+
+
+
+@media only screen and (max-width: 992px)    {
+    .container {
+        height: 60px;
+    }
+    .header .menu {
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #3d5f00;
+        transition: all .6s ease;
+}
+.header .menuclass   {
+    right: 0;
+}
+.header2 .container1 {
+    height: 0px;
+
+}
+
+.header2 .menu2 {
+    position: fixed;
+    bottom: 0;
+    right: -300px;
+    width: 300px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #3d5f00;
+    transition: all .6s ease;
+}
+.header2 .menuclass   {
+right: 0;
+}
+
+.header .logo {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+}
+.header .logo img {
+    width: 100%;
+}
+.header .menu ul li {
+    display: block;
+    margin-bottom: 15px;
+}
+.header .menu ul li a {
+    color: #fff;
+    margin: 15px 0px;
+}
+
+
+.header2 .container1 .menu2 ul li {
+    display: block;
+}
+.header2 .container1 .menu2 ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 15px 0px;
+    display: block;
+    font-size: 20px;
+}
+
+
+
+
+
+.header .toggle .bar {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px;
+}
+
+
+.header .toggle {
+    display: block;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.menuiconclass.toggle .bar:nth-child(1)   {
+    transform: translateY(7px) rotate(45deg);
+}
+.menuiconclass.toggle .bar:nth-child(2)   {
+    transform: translateX(-8px);
+    opacity: 0;
+}
+.menuiconclass.toggle .bar:nth-child(3)   {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
+}

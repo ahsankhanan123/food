@@ -1,0 +1,81 @@
+
+
+
+
+
+
+/* General styles */
+.pricing {
+    padding: 100px 0; /* Adjust spacing as needed */
+    text-align: center;
+    color: #008000;
+  }
+  
+
+
+.pricing .title-row h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pricing .title-row p {
+    font-size: 1.1em;
+    line-height: 1.6;    
+    text-align: center;
+    margin-bottom: 3rem;
+}
+  /* Pricing cards */
+  .pricing-card {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+
+  .top-text   {
+    background-color: #008000;
+    color: #fff;
+    padding: 40px 0px;
+  }
+  
+  .pricing-card .top-text h3 {
+    font-weight: 200;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-card .top-text h1 {
+    font-size: 3em; /* Adjust font size */
+    margin-bottom: 15px;
+  }
+  .low-text   {
+    padding: 30px;
+    background-color: #f1f1f1;
+  }
+  
+  .low-text p {
+    margin-bottom: 10px;
+  }
+  
+  
+  
+.btn {
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #008000;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    padding: 10px 35px;
+}
+  
+  /* Responsive styles */
+  @media (min-width: 992px) {
+    .col-md-4 {
+        max-width: 300px;
+    }
+  }
+  

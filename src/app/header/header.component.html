@@ -1,0 +1,39 @@
+<header class="header">
+    <div class="container">
+        <div class="logo"><img src="../../assets/img/logo.png" alt=""></div>
+
+        <div class="menu" [class.menuclass]="menuvariable">
+            <div class="input-search">
+                <input type="text" placeholder="Search..." id="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <ul>
+                <li><a href="">Register</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href=""><i class="fa-regular fa-heart" current-count="1"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-cart-shopping" current-count="1"></i></a></li>
+            </ul>
+        </div>
+
+        <button class="toggle" (click)="openmenu()" [class.menuiconclass]="menuiconvariable">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </div>
+</header>
+<header class="header2">
+    <div class="container container1">
+        <div class="menu2" [class.menuclass]="menuvariable">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">PRICING</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
